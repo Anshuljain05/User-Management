@@ -1,0 +1,98 @@
+// styles/global.scss
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tab button:hover {
+  background-color: #0051bb;
+}
+
+.tab-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.user-details,
+.account-creation {
+  width: 100%;
+}
+
+.user-details input,
+.account-creation input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.user-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-details th,
+.user-details td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.user-details tr:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.modal button:hover {
+  background-color: #0051bb;
+}
